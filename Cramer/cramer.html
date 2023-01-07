@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAMER(Système d'équation à 3 inconnus)</title>
+    <link rel="stylesheet" href="cramer.css">
+</head>
+<body>
+
+    <h1>SYSTEME D'EQUATION A 3 INCONNUS ( CRAMER )</h1>
+    
+    <div id="grand-div">
+        <p id="forme">
+            ax + by + cz = d<br>a'x + b'y + c'z = d'<br>a"x + b"y + c"z = d"
+        </p>
+        <form name="get">
+            <input type="text" name="x1" class="valeur"><label for="x1"> x + </label>
+            <input type="text" name="y1" class="valeur"><label for="x1"> y + </label>
+            <input type="text" name="z1" class="valeur"><label for="x1"> z = </label>
+            <input type="text" name="rep1" class="valeur">
+            <br>
+            <input type="text" name="x2" class="valeur"><label for="x2"> x + </label>
+            <input type="text" name="y2" class="valeur"><label for="x2"> y + </label>
+            <input type="text" name="z2" class="valeur"><label for="x2"> z = </label>
+            <input type="text" name="rep2" class="valeur">
+            <br>
+            <input type="text" name="x3" class="valeur"><label for="x3"> x + </label>
+            <input type="text" name="y3" class="valeur"><label for="x3"> y + </label>
+            <input type="text" name="z3" class="valeur"><label for="x3"> z = </label>
+            <input type="text" name="rep3" class="valeur">
+            <br>
+            <input type="button" value="Résoudre" id="calc">
+        </form>
+
+        <fieldset>
+            <legend>Réponses</legend>
+            <div id="reponse">
+                <p class="repcase">X ...</p>
+                <p class="repcase">Y ...</p>
+                <p class="repcase">Z ...</p>
+            </div>
+        </fieldset>
+    </div>
+    <ul>
+        <li class="nav-li"><a href="../index.html" class="lien">🏠</a></li>
+        <li class="nav-li"><a href="../2nd D/Equation.html" class="lien">EXO 1</a></li>
+        <li class="nav-li"><a href="" class="lien">EXO 2</a></li>
+        <li class="nav-li"><a href="../Sys Elec/elec.html" class="lien">EXO 3</a></li>
+        <li class="nav-li"><a href="../Animation/anim.html" class="lien">EXO 4</a></li>
+    </ul>
+
+    <script src="cramer.js"></script>
+</body>
+</html>
